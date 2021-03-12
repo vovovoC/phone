@@ -1,0 +1,35 @@
+img{
+    max-width: 280px;
+    height: auto;
+}
+.back{
+  width: 50px;
+}
+/* img{
+    height: auto;
+    width: 200px;
+} */
+.centerBack{
+    margin-left: 45%;
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(179, 178, 192, 0.479);
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 5vh;
+}
+.centerBack:focus{
+    background-color: rgba(107, 165, 99, 0.479);
+}
+.centerBack:hover{
+    background-color: rgba(226, 225, 230, 0.479);
+}
+@media screen and(max-width:350px){
+    .container{
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+    }
+}

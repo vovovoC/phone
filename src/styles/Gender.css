@@ -1,0 +1,30 @@
+.gender{
+    width:100%;
+    min-width: 100px;
+    max-width: 200px;
+    height: 176px;
+    border: 1px solid #D6D9E0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.container{
+    padding: 0;
+    margin: 0;
+}
+.check{
+    text-align: right;
+    margin-right: 19px;
+    margin-top: 16px;
+}
+.content{
+    height: 130px;
+    width: 100%;
+}
+.content p{
+    color: #2D3142;
+    font-family: SF Pro Text;
+    font-size: 16px;
+    line-height: 14px;
+}

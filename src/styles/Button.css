@@ -1,0 +1,28 @@
+input[type=submit]{
+    border:none;
+    cursor: pointer;
+    background-color:#0B8BD2;
+    color:white;
+    max-width: 343px;
+    width: 90%;
+    height: 48px;
+    font-family: SF Pro Text;
+    box-sizing: border-box;
+    display: inline-block; 
+    margin-top:1.5vh;
+    font-size:17px;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+  .col-1, .row, .col-11{
+    padding: 0;
+    margin: 0;
+  }
+  input[type=submit]:focus{
+      border:none;
+      outline: none;
+      background-color: #066da5;
+  }
+  input[type=submit]:hover{
+    background-color: #188dccda;
+  }

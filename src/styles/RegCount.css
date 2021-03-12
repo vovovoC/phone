@@ -1,0 +1,15 @@
+.count{
+    font-family: SF Pro Text;
+    font-size: 17px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #000000;
+    font-weight: 700;
+   
+}
+.conText{
+    text-align: left;
+    height: 40px;
+    width: 100%;
+}

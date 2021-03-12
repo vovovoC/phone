@@ -1,0 +1,79 @@
+
+input[type=text],input[type=password]{
+    border: 1px solid #ccc;
+    max-width: 343px;
+    width: 90%;
+    height: 48px;
+    margin-right:0;
+    margin-left:0;
+    font-family: SF Pro Text;
+    box-sizing: border-box;
+    display: inline-block; 
+    margin-top:1.5vh;
+    font-size:17px;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+  ::placeholder{
+    color: #BBC3C6;
+    text-align: center;
+    font-family: SF Pro Text;
+    font-size: 14px;
+}
+@media screen and(max-width:350px){
+  input[type=text],input[type=password]{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .radio{
+      margin-right: 5%;
+      width: 90%;
+  }
+}
+#checkbox{
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+  border-radius: 12px;
+  display: inline-block;
+  border:1px solid #89AE3A;
+  background-color: #89AE3A;
+  color:white;
+}
+#checkboxNot{
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+  border-radius: 12px;
+  display: inline-block;
+  border:1px solid gray;
+  background-color: white;
+  color:white;
+}
+
+#checkbox span{
+  font-weight: 600;
+  display: block;
+ }
+ #checkboxNot span{
+  font-weight: 600;
+  display: block;
+ }
+
+.label{
+  text-align: left;
+  display: inline-block;
+  font-family: SF Pro Text;
+  font-size: 14px;
+  line-height: 17px;
+  max-width: 360px;
+}
+.radio{
+      margin-left: 3%;
+      margin-right: 3%;
+}
+.col-1, .row, .col-11{
+  padding: 0;
+  margin: 0;
+}
