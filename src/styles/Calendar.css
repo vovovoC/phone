@@ -1,0 +1,182 @@
+.nav{
+    position: fixed;
+    z-index: 3;
+    top:0;
+    height: 50px;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #E4E4E4;
+    align-items: center;
+}
+.img{
+    position: absolute;
+    display: flex;
+    justify-content:right;
+}
+.img2{
+    position: absolute;
+    display: flex;
+}
+.col-1:first-child{
+    height: 50px;
+}
+.col-1{
+    height: 24px;
+}
+.span{
+    font-family: SF Pro Text;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    font-weight: 700;
+}
+.colorNot{
+    color:#0A633C;
+    font-family: SF Pro Text;
+    font-size: 16px;
+}
+.color{
+    color: #2C2A26;
+    font-family: SF Pro Text;
+    font-size: 16px;
+}
+.info{
+    height: 100px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+}
+.imgCamera{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #BBC3C6;
+    color:white;
+}
+.personAge{
+    font-family: SF Pro Text;
+    font-size: 15px;
+    line-height: 18px;   
+    color: #BBC3C6;
+    letter-spacing: -0.2px;
+}
+.email{
+    font-family: SF Pro Text;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.2px;
+    color: #0B8BD2;
+}
+.personName{
+font-family: SF Pro Text;
+font-size: 24px;
+color: #000000;
+line-height: 29px;
+}
+.divName{
+width: 80%;
+margin-left: 5%;
+}
+.row,.col-9,.col-3{
+    padding: 0;
+    margin: 0;
+}
+.size{
+    background: white;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.nameOfSize{
+    display: flex;
+    justify-content:start;
+    width: 75%;
+    padding-left: 5%;
+}
+.numOfSize{
+    display: flex;
+    width:25%;
+    justify-content:end;
+}
+.numOfSize span{
+    text-align: right;
+    display: flex;
+    letter-spacing: 0.35px;
+    font-family: SF Pro Display;
+    font-size: 20px;
+    color: #0A633C;
+}
+.nameOfSize span{
+    font-family: SF Pro Display;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.35px;
+    color: #000000;
+}
+.desc{
+    padding-top: 10px;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.p{
+    font-family: SF Pro Text;
+    font-size: 14px;
+    color: #BBC3C6;
+    padding: 0;
+}
+.descn{
+    border-bottom: 0.5px solid #dbdadada;
+}
+.descNull{
+    border-bottom: none;
+}
+.null{
+    display: none;
+}
+.thingDiv{
+    margin-left: 5%;
+    width: 95%;
+    margin-top: 20px;
+    height: 70px;
+}
+.thing{
+    width: 100%;
+    height: 70px;
+}
+.row,.col-8{
+    padding: 0;
+    margin:0;
+}
+.span1{
+    font-family: SF Pro Text;
+    font-size: 15px;
+    letter-spacing: -0.2px;
+    color: #000000;
+    padding: 0;
+    line-height: 17px;
+}
+.span2{
+    font-family: SF Pro Text;
+    font-size: 14px;
+    color: #999999;
+    line-height: 15px;
+}
+.span3{
+    font-family: SF Pro Text;
+    font-size: 14px;
+    color: #BBC3C6;
+    line-height: 15px;
+}

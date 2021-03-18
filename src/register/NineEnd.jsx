@@ -6,8 +6,7 @@ import BackButton from '../components/BackButton'
 import RegCount from '../components/RegCount';
 import { useState } from 'react';
 import LifeStyle from '../components/LifeStyle';
-import Navbar from '../components/Navbar';
-
+import Navbar from '../components/Navbar'
     const arr = [
         'Просто оздоровиться и предупредить болезни',
         'Похудеть и лучше выглядеть',
@@ -49,7 +48,7 @@ function NineFrom(){
     const countText='Регистрация 9 из 9';
     return(
         <div className='row'>
-          <Navbar countText={countText}/>
+         <Navbar countText={countText}/>
           <div className='hr'></div>
            <div className='col col-sm-2 col-md-3 col-lg-4'></div>
         

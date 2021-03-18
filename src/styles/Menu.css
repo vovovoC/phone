@@ -1,0 +1,12 @@
+.grid {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+    grid-template-columns: repeat(5, 56px);
+    grid-template-rows: repeat(1,54px);
+}
+.grid>div{
+    background-color: white;
+    text-align: center;
+}

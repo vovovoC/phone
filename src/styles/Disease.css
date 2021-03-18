@@ -1,0 +1,62 @@
+.dis{
+    width: 95%;
+    margin-left: 5%;
+    font-family: SF Pro Text;
+    text-align: left;
+    border-bottom: 0.5px solid #dbdadada;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.name{
+    font-size: 17px;
+    line-height: 22px;
+    color:black;
+    letter-spacing: -0.41px;
+}
+.nameD{
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.24px;
+    color: #999999;
+}
+.nameRed{
+    font-size: 17px;
+    line-height: 22px;
+    color:red;
+    letter-spacing: -0.41px;
+}
+.row:nth-child(1){
+    height: 40px;
+}
+.row,.col-10,.col-1,.col-12{
+    margin: 0;
+    padding: 0;
+}
+input[type=search]{   
+    height: 36px;
+    width: 90%;
+    margin:2% 5%;
+    background: rgba(142, 142, 147, 0.12);
+    border-radius: 10px;
+    background-image: url(../images/Search-1.svg);
+    background-repeat: no-repeat;
+    padding: 10px 40px;
+    border: none;
+    background-position: left;
+}
+input[type=search]:focus{
+    outline: none;
+    border: none;
+}
+::placeholder{
+    color: rgba(0, 0, 0, 0.4);
+    font-family: SF Pro Text;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: left;
+    padding: 5px;
+    letter-spacing: -0.41px;
+}
+.fa-angle-right{
+    color: #D1D1D6;
+}

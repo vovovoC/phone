@@ -1,0 +1,33 @@
+.btns{
+    background: #0B8BD2;
+    color:white;
+    text-align: center;
+    width: 50%;
+    border:none;
+    text-decoration: none;
+    height: 38px;
+}
+.btns-inactive{
+    height: 38px;
+    background: white;
+    color:#0B8BD2;
+    text-align: center;
+    text-decoration: none;
+    width: 50%;
+    border:0.5px solid #0B8BD2;
+}
+.btns:focus, .btns-inactive:focus{
+    outline: none;
+}
+.border-btns{
+    border-radius: 0px 4px 4px 0px;
+}
+.border-inactive{
+    border-radius: 4px 0px 0px 4px;
+}
+.allBtns{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    max-width: 400px;
+}

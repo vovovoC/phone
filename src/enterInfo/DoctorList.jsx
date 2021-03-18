@@ -1,23 +1,29 @@
 import Button from '../components/Button'
-import Heading from '../components/Heading';
 import '../styles/SignIn.css'
 import BackButton from '../components/BackButton'
-// import { Link } from 'react-router-dom';
 import RegCount from '../components/RegCount';
 import { useState } from 'react';
-import LifeStyle from '../components/LifeStyle';
-import Navbar from '../components/Navbar';
+import Disease from '../components/Disease';
+import Heading from '../components/Heading';
+import doctors from '../images/doctors.svg'
 
-    const arr = [
-        'Просто оздоровиться и предупредить болезни',
-        'Похудеть и лучше выглядеть',
-        'Поправиться и/или нарастить мышцы',
-        'Научиться управлять болезнями',
-        'Я участник клинического исследования',
-        'Другое'
-    ];
-
-function NineFrom(){
+const arrName = [
+    'Еренчина Эльмира Рауфовна',
+    'Тюлебекова Гульнара Касымовна',
+    'Ермакова Ирина Александровна',
+    'Бекжанова Айсулу Лесбековна',
+    'Елемесова Гульжан Фарахатовна'
+];
+const arrProf = [
+    'Кардиолог',
+    'Гастроэнтеролог',
+    'Терапевт',
+    'Терапевт',
+    'Эндокринолог'
+];
+const countText='Врачи';
+const headerText = 'Выберите персонального врача из числа участников программы VitAlem'
+function DoctorList(){
     const[ch, setCh] = useState({
         object:[]
     })
@@ -43,36 +49,42 @@ function NineFrom(){
         if(ch.object.includes(index)) return true
         else return false
     }
-    const nameBtn = 'Каков характер вашего питания?';
-    const nameBtnSub ='Продолжить';
-    const podText = 'Можно выбрать несколько целей';
-    const countText='Регистрация 9 из 9';
+    const nameBtnSub ='Выбрать';
+ 
     return(
         <div className='row'>
-          <Navbar countText={countText}/>
+           <div className='topNav'>
+          <div className='row align-items-center'>
+           <div className='col-3 col-sm-4 align-self-center'>
+           <BackButton/>
+           </div>
+                <div className='col-9 col-sm-8'>
+              <RegCount countText={countText}/>
+                </div>
+           </div>
+          </div>
           <div className='hr'></div>
            <div className='col col-sm-2 col-md-3 col-lg-4'></div>
-        
           <div className='col-12 col-sm-8 col-md-6 col-lg-4'>
-                <div className='bodyRegister'>
-                          <div className='container'>
-                          <Heading name={nameBtn}/>
-                          <p className='podText'>{podText}</p>
-                          <div>
+          <div className='container' style={{marginTop: '50px'}}>
+          <img src={doctors} alt='doctors' className='doctorsList'/>
+                              <Heading name={headerText}/>
+                              <div style={{marginTop: '20px'}}>
                             {  
-                                arr.map((el, index)=>(
+                                arrName.map((el, index)=>(
                                     <div 
                                         key={index}
                                         onClick={()=>{
                                            toggle(index)
                                         }}>
-                                           <LifeStyle 
-                                                text={arr[index]} 
+                                           <Disease 
+                                                nameDis={arrName[index]} 
+                                                description={arrProf[index]}
                                                 choose = {toggleAllow(index)?'allow':'no'}/>   
                                     </div>
                                 ))    
                             }
-                            </div>
+                            
                   <div style={{ marginTop:'40px',marginBottom:'40px'}}>
                    <form>
                           <Button name={nameBtnSub}/>
@@ -82,8 +94,7 @@ function NineFrom(){
             </div>
             </div>
             <div className='col col-sm-2 col-md-3 col-lg-4'></div>
-        
         </div>
     )
 }
-export default NineFrom;
+export default DoctorList;

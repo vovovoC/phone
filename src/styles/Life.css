@@ -1,21 +1,32 @@
+  
 .lifeStyle{
     border: 1px solid #ccc;
     max-width: 343px;
     width: 90%;
-    height: 48px;
+    height: 80px;
     margin-right:0;
     margin-left:0;
     font-family: SF Pro Text;
     box-sizing: border-box;
     display: inline-block; 
-    margin-top:1.5vh;
+    margin-top:16px;
     font-size:17px;
     border-radius: 10px;
     text-decoration: none;
+    text-align: left;
+    background: #FFFFFF;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.row{
+    height: 80px;
 }
 .lifeStyle span{
     font-family: SF Pro Text;
     font-size: 16px;
     line-height: 24px;
     color: #2C2A26;
+}
+.lg{
+    box-shadow: 0px 0px 16px rgba(64, 117, 205, 0.16);
 }

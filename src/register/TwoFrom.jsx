@@ -9,7 +9,7 @@ import Allow from '../components/Allow';
 import AllowNot from '../components/AllowNot';
 import InputPsw from '../components/InputPsw';
 import { useState } from 'react';
-
+import Navbar from '../components/Navbar'
 function TwoFrom(){
     const nameBtn = 'Создайте учетную запись';
     const placeholder1 = 'Введите электронную почту';
@@ -27,16 +27,7 @@ function TwoFrom(){
     const [a3, setA3] = useState(false);
     return(
         <div className='row'>
-        <div className='topNav'>
-          <div className='row align-items-center'>
-           <div className='col-3 col-sm-4 align-self-center'>
-           <BackButton/>
-           </div>
-                <div className='col-9 col-sm-8'>
-              <RegCount countText={countText}/>
-                </div>
-           </div>
-          </div>
+         <Navbar countText={countText}/>
             <div className='hr'></div>
             <div className='col col-sm-2 col-md-3 col-lg-4'></div>
             <div className='col-12 col-sm-8 col-md-6 col-lg-4'>
